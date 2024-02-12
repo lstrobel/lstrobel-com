@@ -1,3 +1,4 @@
-baseURL = '/'
+baseURL = 'https://lstrobel.com/'
 languageCode = 'en-us'
-title = "Lukas' Travel Blog"
+title = "Lukas Strobel"
+theme = 'hugo-theme-stack'
