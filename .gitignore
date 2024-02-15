@@ -1,21 +1,10 @@
-<<<<<<< HEAD
-# Created by https://www.toptal.com/developers/gitignore/api/macos,hugo
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos,hugo
+# Created by https://www.toptal.com/developers/gitignore/api/macos,astro,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,astro,visualstudiocode
 
-### Hugo ###
-# Generated files by hugo
-/public/
-/resources/_gen/
-/assets/jsconfig.json
-hugo_stats.json
-
-# Executable may be added to repository
-hugo.exe
-hugo.darwin
-hugo.linux
-
-# Temporary lock file while building
-/.hugo_build.lock
+### Astro ###
+# Gitignore template for Astro projects
+# Ignore content collection generated files
+.astro
 
 ### macOS ###
 # General
@@ -24,7 +13,8 @@ hugo.linux
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -49,8 +39,27 @@ Temporary Items
 # iCloud generated files
 *.icloud
 
-# End of https://www.toptal.com/developers/gitignore/api/macos,hugo
-=======
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# End of https://www.toptal.com/developers/gitignore/api/macos,astro,visualstudiocode
+
 # build output
 dist/
 # generated types
@@ -72,4 +81,3 @@ pnpm-debug.log*
 
 # macOS-specific files
 .DS_Store
->>>>>>> d513c76 (Add new .gitignore)
