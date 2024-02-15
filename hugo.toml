@@ -1,4 +1,0 @@
-baseURL = 'https://lstrobel.com/'
-languageCode = 'en-us'
-title = "Lukas Strobel"
-theme = 'hugo-theme-stack'
