@@ -61,7 +61,7 @@ Temporary Items
 # End of https://www.toptal.com/developers/gitignore/api/macos,astro,visualstudiocode
 
 # build output
-dist/
+dist/*
 !dist/_headers
 
 # generated types
