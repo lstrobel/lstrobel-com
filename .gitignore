@@ -62,6 +62,8 @@ Temporary Items
 
 # build output
 dist/
+!dist/_headers
+
 # generated types
 .astro/
 
